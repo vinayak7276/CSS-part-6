@@ -1,0 +1,39 @@
+.box{
+    height: 500px;
+    width:250px;
+    background-color: aqua;
+    animation-name:width ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transition-delay: 0s;
+    animation-iteration-count:6;
+    animation-direction:normal;
+    
+}
+@keyframes width{
+    from{
+        width:10px;
+
+    }
+    to{
+        width:400px;
+    }
+}
+@keyframes fontAnimation{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+
+}
+@keyframes colorAnimation{
+    from{
+        background-color: blue;
+
+    }
+    to{
+        background-color: yellow;
+    }
+}
